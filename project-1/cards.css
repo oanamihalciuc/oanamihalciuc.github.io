@@ -1,0 +1,34 @@
+html {
+    background-color: black;;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    text-align-last: center;
+    font-family: 'Architects Daughter', cursive;;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+p {
+    width: 10em;
+    height: 15em;
+    background: url(https://i.imgur.com/y0hvD2p.png);
+    background-size: cover;
+    border: 1px solid black;
+    margin: 1em;
+    transition: transform 1.5s;
+}
+
+p:hover {
+    transform: rotateY(180deg);
+    background: url(https://i.imgur.com/AR38hox.png);
+    background-size: cover;
+}

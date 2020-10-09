@@ -1,0 +1,111 @@
+html {
+    font-family: 'Kaushan Script', cursive;
+}
+
+header {
+    background-image: url("https://i.imgur.com/lujcs3U.jpg");
+    background-color: #F9EDDC;
+    background-size: cover;
+    height: 15em;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    /* text-transform: uppercase; */
+    letter-spacing: 0.3em;
+    color: white;
+    text-shadow: 5px 5px #425F76;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-bar > p {
+    font-size: 1em;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+i {
+    font-size: 2em;
+}
+
+#home {
+    color: #517590;
+}
+
+#authors {
+    color: #E7AC58;
+}
+
+#genres {
+    color: #A3BF90;
+}
+
+#discover {
+    color: #89A7BD;
+}
+
+#top {
+    color: #FDB0C3;
+}
+
+.book {
+    width: 100%;
+    border-radius: 2em;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+figure {
+    background: white;
+    border: 2px solid white;
+    border-radius: 2em;
+    width: 20em;
+    text-align: center;
+    /* border: 1px solid orange; */
+}
+
+figcaption {
+    color: #425F76;
+    background-color: white;
+    border-radius: 2em;
+    font-size: 1em;
+    font-weight: 600;
+    box-shadow: 0px 2px #A4BACC;
+}
+
+@media screen and (min-width: 800px) {
+    figure:hover {
+        opacity: 0.5;
+    }
+
+    h1 {
+        font-size: 5em;
+    }
+
+    i,
+    .nav-bar > p {
+        font-size: 1.5em;
+    }
+}
