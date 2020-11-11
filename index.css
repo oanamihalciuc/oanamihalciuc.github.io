@@ -233,3 +233,18 @@ footer>h2 {
         font-size: 0.5em;
     }
 }
+
+/* jQuery Slider section */
+.slider {
+    width: 20%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+}
+
+.slider img {
+  width: 250px;
+  margin: 0 auto;
+  border: 15px solid white;
+}
